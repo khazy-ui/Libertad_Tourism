@@ -1,0 +1,20 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;font-family:Segoe UI,Arial,sans-serif;background:#eef3f0}
+body{display:flex}
+aside{width:200px;background:#0b2b26;color:#fff;padding:20px 0;display:flex;flex-direction:column;flex-shrink:0}
+aside h3{padding:0 20px 16px}aside a{color:#cfe6dc;text-decoration:none;padding:10px 20px}
+aside a.on,aside a:hover{background:#1f6f54;color:#fff}
+main{flex:1;padding:24px;overflow:auto}main h2{margin-bottom:16px;color:#0b2b26}
+.box{background:#fff;padding:18px;border-radius:12px;margin-bottom:16px;max-width:760px}
+.stats{display:flex;gap:16px;flex-wrap:wrap}.stat{background:#fff;padding:20px 30px;border-radius:12px;font-size:2rem;color:#1f6f54}
+.stat small{display:block;font-size:.9rem;color:#555}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #e3ebe6;vertical-align:top}th{background:#dfeae4}
+form{display:flex;flex-direction:column;gap:10px}label{font-weight:600;font-size:.9rem}
+input,textarea{padding:9px;border:1px solid #bcd;border-radius:8px;font:inherit;width:100%}
+input[type=color]{width:70px;height:36px;padding:2px}
+.btn{background:#1f6f54;color:#fff;border:0;padding:9px 18px;border-radius:8px;text-decoration:none;cursor:pointer;display:inline-block;font-size:.95rem;width:fit-content}
+.btn.red{background:#b3261e}.btn.gray{background:#667}
+.ok{background:#d9f5e6;padding:8px 12px;border-radius:8px;margin-bottom:12px;max-width:760px}
+.login{margin:auto;width:320px;background:#fff;padding:28px;border-radius:14px}.login h2{margin-bottom:14px}
+.err{color:#b3261e}
